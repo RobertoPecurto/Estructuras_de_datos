@@ -8,7 +8,7 @@ public class TerminacionSorteo {
             int contador = 1;
             int ultimo = Integer.parseInt("" + boleto.charAt(boleto.length()-1));
             if (ultimoNum.containsKey(ultimo)){
-                contador++;
+                contador = ultimoNum.get(ultimo)+1;
             }
             ultimoNum.put(ultimo,contador);
         }
