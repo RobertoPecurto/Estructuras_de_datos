@@ -62,6 +62,7 @@ public class Altura {
     }
 
     public static void main(String[] args) {
+        //OK
         int numAlumnos = numeroAlumnos();
         ArrayList<Double> alturas = leerAlturas(numAlumnos);
         mostrarResultados(alturas);

@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class Capitales {
     public static void main(String[] args) {
+        //OK
         Map<String, String> mapa1 = new HashMap<String, String>();
         mapa1.put("España", "Madrid");
         mapa1.put("Portugal", "Lisboa");

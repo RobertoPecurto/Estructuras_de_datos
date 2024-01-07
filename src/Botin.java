@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Botin {
     public static void main(String[] args) {
+        //No funciona bien
         System.out.println(repartir(2, 10, 20, 50, 200, 500));;
     }
 

@@ -2,6 +2,8 @@ import java.util.Stack;
 
 public class Parentesis {
     public static void main(String[] args) {
+        //Regular. 
+        /* por ejemplo (()) dice que está mal */
         String cadena = Utilidades.leerCadena("Introduce una cadena:");
         if (esParentizado(cadena)){
             System.out.println("La cadena está bien parentizada");

@@ -6,6 +6,7 @@ public class ExpresionesAritmeticas {
     }
 
     public static int calcular (String expresion){
+        //OK
         String[] datos = expresion.split(" ");
         Stack<Integer> pila = new Stack<>();
         int n1, n2, resultado;

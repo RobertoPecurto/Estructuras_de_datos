@@ -4,6 +4,7 @@ import java.util.Map;
 
 public class TelefonosII {
     public static void main(String[] args) {
+        //OK
         ArrayList<String> telefonos = new ArrayList<>();
         HashMap<String, ArrayList<String>> numerosTelef = new HashMap<>();
         telefonos.add("684 10 34 62");
