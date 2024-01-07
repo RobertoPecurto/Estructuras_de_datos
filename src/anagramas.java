@@ -3,7 +3,7 @@ import java.util.*;
 
 public class anagramas {
     public static void main(String[] args) throws IOException {
-
+        //OK. Aunque me huele a ChatGPT
         int minGroupSize =100;
 
         Map<String,List<String>> m = new HashMap<String,List<String>>();

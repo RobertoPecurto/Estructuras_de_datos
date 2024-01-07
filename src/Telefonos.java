@@ -4,6 +4,7 @@ import java.util.Map;
 
 public class Telefonos {
     public static void main(String[] args) {
+        //OK
         Map<String, String> contactos = new HashMap<String, String>();
         contactos.put("Roberto", "684103462");
         contactos.put("Alberto", "965483265");
