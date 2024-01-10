@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class ExpresionesAritmeticas {
     public static void main(String[] args) {
-        System.out.println(" ");
+        System.out.println(calcular("5 1 2 + 4 * + 3 -"));
     }
 
     public static int calcular (String expresion){

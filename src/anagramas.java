@@ -6,7 +6,7 @@ public class anagramas {
         //OK. Aunque me huele a ChatGPT
         int minGroupSize =100;
 
-        Map<String,List<String>> m = new HashMap<String,List<String>>();
+        Map<String,List<String>> m = new HashMap<>();
 
         BufferedReader reader = null;
         reader = new BufferedReader(new FileReader("files/spanish-dict.txt"));
