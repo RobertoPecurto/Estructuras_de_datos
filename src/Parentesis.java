@@ -6,7 +6,7 @@ public class Parentesis {
         if (esParentizado(cadena)){
             System.out.println("La cadena está bien parentizada");
         } else {
-            System.out.println("La cadena está mal parentizada");
+            System.out.println("La cadena no está bien parentizada");
         }
     }
     public static boolean esParentizado (String cadena){
